@@ -1,0 +1,50 @@
+// VS Code Settings
+{
+  "editor.fontLigatures": true, // == === -> --> <-- <- !== !===
+  "editor.fontFamily": "Operator Mono SSm Lig, Fira Mono for Powerline",
+  "editor.fontSize": 17.5,
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "workbench.colorCustomizations": {
+    "panel.border": "#800000"
+  },
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 300,
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "python.languageServer": "Microsoft",  
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "bracketPairColorizer.showBracketsInGutter": false,
+  "bracketPairColorizer.forceIterationColorCycle": true,
+  "eslint.validate": ["javascript"],
+  "ruby.useBundler": true, //run non-lint commands with bundle exec
+  "ruby.useLanguageServer": true, // use the internal language server (see below)
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true // enable rubocop via bundler
+    },
+    "reek": {
+      "useBundler": true // enable reek via bundler
+    }
+  },
+  "ruby.format": "rubocop", // use rubocop for formatting
+  "terminal.integrated.fontFamily": "Operator Mono SSm Lig, Fira Mono for Powerline",
+  "terminal.integrated.fontSize": 18,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "welcomePage",
+  // React-Native temporary issue with flow and ts
+  "javascript.validate.enable": false,
+  
+  "workbench.colorTheme": "SynthWave '84",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}
